@@ -1,0 +1,10 @@
+.pic {
+    background-image: url("../image/Quidditch-min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}

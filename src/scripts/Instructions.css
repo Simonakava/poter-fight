@@ -1,0 +1,106 @@
+.keyboardLayout {
+    width: 80vw;
+    height: 80vh;
+    border: 1vh solid black;
+    border-radius: 20px 20px;
+    background-color: rgba(82, 82, 82, 0.9);
+    margin: auto;
+    position: relative;
+    z-index: 5;
+    }
+    
+    .container {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    width: 70vw;
+    margin-left: 5vw;
+    }
+    
+    .image1 {
+    width: 125px;
+    height: 100px;
+    margin-top: 10px;
+    background-image: url("../image/silouhette.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 125px 100px;
+    }
+    
+    .image2 {
+    width: 125px;
+    height: 100px;
+    margin-top: 10px;
+    background-image: url("../image/silouhette.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 125px 100px;
+    transform: scaleX(-1);
+    }
+    
+    .container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    /* height: 200px; */
+    margin: 0 auto;
+    }
+    
+    .container2 table{
+    font-size: 40px;
+    color: white;
+    }
+    
+    table th, td {
+    padding: 20px;
+    }
+    
+    .container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    /* height: 150px; */
+    margin: 0 auto;
+    padding-right: 15px;
+    }
+    
+    .container4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    /* height: 150px; */
+    margin: 0 auto;
+    padding-right: 25px;
+    }
+
+.container5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    /* height: 150px; */
+    margin: 0 auto;
+    padding-right: 25px;
+}
+    
+    .container3 p {
+    font-size: 40px;
+    color: white;
+    }
+    
+    .container4 p {
+    font-size: 40px;
+    color: white;
+    }
+
+.container5 p {
+    font-size: 40px;
+    color: white;
+}
+    
+span {
+    font-size: 20px;
+}

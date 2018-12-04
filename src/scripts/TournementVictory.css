@@ -1,0 +1,170 @@
+@font-face{
+    font-family: "PotterFont";
+    src: url('../font/HARRYP__.TTF')format("truetype");
+}
+
+
+.bodyTournementVictory{
+    /*background-image: url("../image/background1tournement.jpg");*/
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://www.dhresource.com/0x0s/f2-albu-g5-M01-74-79-rBVaJFkftaiAMKQPAAJ7wiL9fGo632.jpg/7x5ft-daylight-harry-potter-hogwarts-passage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 51vw;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+
+.gobleoffireimage{
+    position: absolute;
+    background-image: url("../image/fireGoblet.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 80vh;
+    width: 40vw;
+    top: 12vh;
+    left: 55vw;
+
+}
+.boutonTournementHomePage{
+    position: absolute;
+    top: 91vh;
+    left: 65vw;
+    width: 20vw;
+    height: 5vh;
+    font-size: 30px;
+    background-color: rgba(255, 165, 0, 0.6);
+    border-color: rgba(255, 165, 0, 0.6); 
+    text-align: center;
+    font-family: "PotterFont";
+}
+.boutonPodium{
+    position: absolute;
+    background-image: url("../image/podium.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 900px;
+    top: 500px;
+    left: 100px;
+
+}
+
+.titleWinners{
+    position: absolute;
+    width: 50vw;
+    height: 30vh;
+    justify-content: top;
+    font-size: 130px;
+    top: -11vh;
+    left: 6vw;
+    font-family: "PotterFont";
+    color: orange;
+    text-shadow: 3px 3px 3px white, -1px -1px 1px white;
+}
+
+.fullScore {
+    display: flex;
+  position: fixed;
+  top: 75vh;
+  }
+  
+  /*.score {
+    display: flex;
+    position: fixed;
+    top: 90vh;
+    z-index: -1;
+  }
+  
+  .scorePerso {
+    margin-right: 50px;
+    display: flex;
+    float: right;
+    z-index: 10;
+    color: black;
+    border-radius: 45px;
+    padding: 10px;
+  }*/
+  .skore {
+    margin-left: 15%;
+    display: flex;
+    color: white;
+    font-size: 50px;
+  }
+    .one{
+        position: relative;
+        font-size: 60px;
+        font-weight: bold;
+        color: orange;
+        top: 5vw;  
+        width: 40vh;
+        margin-left: -2%;
+        text-shadow: 5px -3px black;
+        font-family: "PotterFont";
+    }
+
+    .two{
+        position: relative;
+        font-size: 60px;
+        font-weight: bold;
+        color: #D1D1D1;
+        top: 5vw;
+        width: 40vh;
+        text-shadow: 5px -3px black;
+        font-family: "PotterFont";
+    }
+
+    .three{
+        position: relative;
+        font-size: 60px;
+        font-weight: bold;
+        color: #FB8249;
+        top: 5vw;
+        width: 40vh;
+        margin-left: -5%;
+        text-shadow: 5px -3px black;
+        font-family: "PotterFont";
+    }
+
+.award{
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    width: 250px;
+}
+
+#firstAward {  
+    top: 22vh;
+    left: 23vw;
+}
+
+#secondAward {
+    top: 27vh;
+    left: 7vw;
+}
+
+#thirdAward {
+    top: 32vh;
+    left: 39vw;
+}
+
+.logoHufflepuffHouse {
+    position: absolute;
+    background-image: url("../image/hufflepuff.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    top: 230px;
+    left: 140px;
+
+
+}

@@ -1,0 +1,35 @@
+@font-face{
+    font-family: "PotterFont";
+    src: url('../font/HARRYP__.TTF')format("truetype");
+  }
+
+.VictoryText{
+    position: absolute;
+    width: 40vw;
+    margin-top: 25vh;
+    margin-left: 30vw;
+    font-size: 60px;
+    z-index: 10;
+    color:rgb(255, 165, 0);
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    border-radius: 30px;
+    padding: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5) 
+}
+
+.ButtonChoice button{
+    font-family: "PotterFont";
+    border: 1px solid rgb(255, 165, 0);
+    box-shadow: 3px 3px 3px rgb(100, 66, 4);
+    background-color: rgba(255, 165, 0, 0.3);
+    border-radius: 10px;
+    color: orange;
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    width: 200px;
+    height: 70px; 
+    font-size: 50px;
+    margin: 15px;
+    /* border: none; */
+  }

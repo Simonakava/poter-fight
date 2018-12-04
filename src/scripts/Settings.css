@@ -1,0 +1,38 @@
+#settings{
+    position: relative;
+    left: 33vw;
+    top: -6vh;
+    width: 40vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.settingSound{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    
+}
+
+.settingSound p{
+    font-size: 40px;
+    padding-top: 4vh;
+    color: rgb(252, 222, 53);
+    text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+}
+
+.settingSound button{
+    width: 70px;
+    height: 50px;
+    margin: 0 30px;
+    padding: 0;
+}
+
+.settingSound button img{
+    width: 70px;
+    height: 50px;
+}

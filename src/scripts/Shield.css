@@ -1,0 +1,7 @@
+.energyShield{
+    background-image: url("../image/energyShield.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100% 100%;
+    position: absolute;
+  }

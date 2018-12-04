@@ -1,0 +1,17 @@
+.spell{
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+#spellSlytherin{
+  background-color: green;
+}
+#spellGryffindor{
+  background-color: red;
+}
+#spellHufflepuff{
+  background-color: yellow;
+}
+#spellRavenclaw{
+  background-color: rgb(96, 96, 199);
+}
