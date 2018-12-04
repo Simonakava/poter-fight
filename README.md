@@ -1,1 +1,1 @@
-# poter-fight
+# React video game Potter Fight
